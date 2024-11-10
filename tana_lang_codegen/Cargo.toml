@@ -1,0 +1,16 @@
+[package]
+name = "tana_lang_codegen"
+version = "0.1.0"
+edition = "2021"
+authors = ["tana-gh <yozoranotakaku@gmail.com>"]
+description = "Code Generator for Tana Language."
+
+[lib]
+proc-macro = true
+
+[dependencies]
+anyhow = "1.0.93"
+proc-macro2 = "1.0.89"
+quote = "1.0.37"
+syn = "2.0.87"
+tana_lang_core = { path = "../tana_lang_core" }

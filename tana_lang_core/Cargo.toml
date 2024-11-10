@@ -1,0 +1,10 @@
+[package]
+name = "tana_lang_core"
+version = "0.1.0"
+edition = "2021"
+authors = ["tana-gh <yozoranotakaku@gmail.com>"]
+description = "Core Modules of Tana Language."
+
+[dependencies]
+anyhow = "1.0.93"
+thiserror = "2.0.1"
