@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = [
+    "tana_lang_codegen",
+    "tana_lang_core",
+    "tana_lang_test",
+]
