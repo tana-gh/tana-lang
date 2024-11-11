@@ -1,9 +1,11 @@
 mod lexer;
 mod macros;
 mod parser;
+mod semantizer;
 
 pub use lexer::*;
 pub use parser::*;
+pub use semantizer::*;
 
 use std::fmt::{
     Display,
